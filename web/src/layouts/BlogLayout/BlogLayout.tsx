@@ -33,6 +33,15 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
                 About
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                className="link"
+                activeClassName="link-active"
+                to={routes.contact()}
+              >
+                Contact
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </header>
